@@ -1,0 +1,37 @@
+[
+  {
+    "id": "m1",
+    "title": "A 1st meetup",
+    "image": "https://picsum.photos/seed/1/500",
+    "address": "Some address 1, some city",
+    "description": "this is a 1st meetup"
+  },
+  {
+    "id": "m2",
+    "title": "A 2nd meetup",
+    "image": "https://picsum.photos/seed/2/500",
+    "address": "Some address 2, some city",
+    "description": "this is a 2nd meetup"
+  },
+  {
+    "id": "m3",
+    "title": "A 3rd meetup",
+    "image": "https://picsum.photos/seed/3/500",
+    "address": "Some address 3, some city",
+    "description": "this is a 3rd meetup"
+  },
+  {
+    "id": "m4",
+    "title": "A 4th meetup",
+    "image": "https://picsum.photos/seed/4/500",
+    "address": "Some address 4, some city",
+    "description": "this is a 4th meetup"
+  },
+  {
+    "id": "m5",
+    "title": "A 5th meetup",
+    "image": "https://picsum.photos/seed/5/500",
+    "address": "Some address 5, some city",
+    "description": "this is a 5th meetup"
+  }
+]
