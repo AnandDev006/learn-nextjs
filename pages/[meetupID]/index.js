@@ -32,11 +32,11 @@ export const getStaticPaths = async context => {
     params: { meetupID: meetup._id.toString() },
   }));
 
-  console.log({ paths });
+  // console.log({ paths });
 
   return {
     paths,
-    fallback: false,
+    fallback: 'blocking',
   };
 };
 
@@ -62,7 +62,7 @@ export const getStaticProps = async context => {
     _id: null,
     id: result._id.toString(),
   };
-  console.log({ meetupData });
+  // console.log({ meetupData });
 
   return {
     props: {

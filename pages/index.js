@@ -37,7 +37,7 @@ export const getStaticProps = async context => {
     image: meetup.image,
   }));
 
-  console.log({ meetups });
+  // console.log({ meetups });
 
   return {
     props: {

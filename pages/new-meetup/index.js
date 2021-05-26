@@ -7,7 +7,7 @@ const NewMeetup = props => {
   const router = useRouter();
 
   const onAddMeetupHandler = async newMeetupData => {
-    console.log(newMeetupData);
+    // console.log(newMeetupData);
     try {
       const response = await fetch('/api/new-meetup', {
         method: 'POST',
@@ -19,7 +19,7 @@ const NewMeetup = props => {
 
       const data = await response.json();
 
-      console.log('onAddMeetupHandler', data);
+      // console.log('onAddMeetupHandler', data);
     } catch (error) {
       console.error('onAddMeetupHandler', error);
     } finally {

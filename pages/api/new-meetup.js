@@ -16,7 +16,7 @@ const handler = async (req, resp) => {
 
     const result = await runDBQuery(insertNewMeetup);
     
-    console.log({ result });
+    // console.log({ result });
 
     resp.status(201).json({ message: 'Meetup inserted' });
   }
